@@ -1,9 +1,22 @@
-/* Linux TOSR-0n controller */
-/* (c) 2012 Héctor Cordobés */
-/* Based on the basic serial examples at tldp.org */
+/* 
+ * Linux TOSR-0n controller 
+ * Copyright (C) 2012 Héctor Cordobés 
+ * Based on the basic serial examples at tldp.org 
+ 
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-/* You may use this sw in any commercial and non-comercial project */
-/* The sw is provided as is with no guarantee of any kind in any scenario */
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+ */
 
 #include <sys/types.h>
 #include <sys/stat.h>
